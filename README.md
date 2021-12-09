@@ -48,7 +48,7 @@ And then the ESP32 controller. There are many out there but this is the particul
 
 Wire the positive and negative leads out of the battery pack into the MT3608 on the VIN+ and VIN- terminals. While the iron is hot split a male-to-female jumper cable in half and strip the ends, solder one each to the VOUT terminals on the voltage regulator.
 
-The servo has three wires coming out of it: orange, red, and brown. Red and brown are your positive and common lines for the motor. Hook them to the male leads coming out of the voltage regulator that you just soldered on.
+The servo has three wires coming out of it: orange, red, and brown. Red and brown are your positive and common lines for the motor. Hook them to the male leads coming out of the voltage regulator that you just soldered on. Once wired up add batteries to the pack and measure output voltage on the MT3608. You want it to be between 5.0V and 7.2V when you're done. I found performance better at the higher end.
 
 The orange line is for the PWM (Pulse Width Modulation) signal to tell the servo where to go. Hook that into the D13 pin of the ESP32 or whatever pin you want to use. The posted code uses D13 currently.
 
