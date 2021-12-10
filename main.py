@@ -9,7 +9,7 @@ def do_connect():
     wlan.active(True)
     if not wlan.isconnected():
         print('connecting to network...')
-        wlan.connect('jbuist_ext', '1055leonard')
+        wlan.connect('your_wifi_network', 'your_wifi_passwword')
         while not wlan.isconnected():
             pass
     print('network config:', wlan.ifconfig())
