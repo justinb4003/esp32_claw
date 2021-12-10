@@ -30,7 +30,7 @@ Battery holders for 2 AA batteries (Less than $1 each)
 
 https://smile.amazon.com/gp/product/B089JYBF25
 
-DC-DC MT3608 step up voltage reulator
+DC-DC MT3608 step up voltage reulator ($1 each)
 
 https://smile.amazon.com/gp/product/B07GD2BWPY
 
